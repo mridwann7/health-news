@@ -1,18 +1,18 @@
 import Meta from "../components/Meta";
 import Header from "../components/Header";
 import List from "../components/List";
-import Footer from "../components/Footer";
+import BottomNavigation from "../components/BottomNavigation";
 
 export default function Home() {
   return (
     <div>
-      <Meta title="Health News" />
+      <Meta title="Health Newsnpm" />
 
       <Header />
 
       <List />
 
-      <Footer />
+      <BottomNavigation />
     </div>
   );
 }
