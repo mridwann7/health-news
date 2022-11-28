@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <div>
-      <Meta title="Health News" />
+      <Meta title="Health News: Latest" />
 
       <Header />
 

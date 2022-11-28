@@ -15,7 +15,7 @@ export default function List() {
   useEffect(() => {
     setTimeout(() => {
       fetch(
-        "https://heath-news.p.rapidapi.com/news",
+        "https://api.jsonbin.io/v3/b/6384cd3f003d6444ce5d00b5?meta=false",
         options
       )
         .then((response) => response.json())

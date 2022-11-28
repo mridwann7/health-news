@@ -12,10 +12,10 @@ export default function Header() {
         </Link>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
           <Link href="/" className="mr-5 hover:text-gray-900">
-            News
+            Latest
           </Link>
-          <Link href="/reference" className="mr-5 hover:text-gray-900">
-            Reference
+          <Link href="/popular" className="mr-5 hover:text-gray-900">
+            Popular
           </Link>
           <Link href="/faq" className="mr-5 hover:text-gray-900">
             FAQ
