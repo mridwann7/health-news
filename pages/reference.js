@@ -1,6 +1,6 @@
 import Meta from "../components/Meta";
 import Header from "../components/Header";
-import Footer from "../components/Footer";
+import BottomNavigation from "../components/BottomNavigation";
 import Image from "next/image";
 import icon from "../public/assets/apple-icon.png";
 
@@ -19,22 +19,21 @@ export default function Reference() {
             </div>
             <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
               <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
-                Food Reference
+                Reference
               </h2>
               <p className="leading-relaxed text-base">
-                Food Reference on this Low Carb Recipes Application is using
-                Wikipedia.
+                News that is updated on Health news comes from WHO and other
+                supporting websites.
               </p>
             </div>
           </div>
           <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
             <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
               <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
-                Application Reference
+                Tools
               </h2>
               <p className="leading-relaxed text-base">
-                Application Reference on this Low Carb Recipes Application is
-                using Next.js and Vercel.
+                This application is made using next.js and varcel.
               </p>
             </div>
             <div className="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
@@ -50,15 +49,14 @@ export default function Reference() {
                 API Reference
               </h2>
               <p className="leading-relaxed text-base">
-                API or Application Programming Interface on this Low Carb
-                Recipes is using RAPID API.
+                The API source is from Rapid API
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <Footer />
+      <BottomNavigation />
     </div>
   );
 }

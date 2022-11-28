@@ -1,7 +1,7 @@
 import Meta from "../components/Meta";
 import Header from "../components/Header";
 import PopularList from "../components/PopularList";
-import Footer from "../components/Footer";
+import BottomNavigation from "../components/BottomNavigation";
 
 export default function Popular() {
   return (
@@ -12,7 +12,7 @@ export default function Popular() {
 
       <PopularList />
 
-      <Footer />
+      <BottomNavigation />
     </div>
   );
 }
