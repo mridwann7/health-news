@@ -26,7 +26,7 @@ export default function PopularList() {
 
   return (
     <section className="text-gray-600 body-font">
-      <div className="container px-5 py-2 mx-auto">
+      <div className="container px-5 py-2 mb-24 mx-auto">
         <div className="flex flex-wrap -m-4">
           {data === null ? (
             <p className="mx-auto text-center font-bold mt-4">Loading...</p>
